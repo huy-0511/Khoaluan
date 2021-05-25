@@ -1,0 +1,92 @@
+/* Auth Form*/
+body{
+    background-color: rgba(169, 169, 169, 0.267);
+}
+.auth-form{
+    margin-top: 100px;
+    width: 500px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #3333;
+    margin: auto;
+    text-align: center;
+    background-image: linear-gradient(rgb(115, 103, 168), rgb(192, 255, 234));
+}
+.DN{
+    margin-top: 145px;
+}
+.auth-form_container{
+    padding: 0 32px;
+}
+.auth-form__header{
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12px;
+    margin-top: 10px;
+}
+.auth-form__heading{
+    /* font-weight: 400; */
+    color: black;
+    text-align: center;
+    font-family: serif;
+}
+.auth-form_group{
+    text-align: center;
+    display: flex;
+}
+.auth-form_input{
+    width: 100%;
+    height: 30px;
+    margin-top: 19px;
+    margin-right: 20px;
+    outline: none;
+}
+.auth-form_style{
+    text-align: left;
+    left: 0px;
+    width: 520px;
+    float: left;
+    margin-left: 25px;
+    font-size: 1.2rem;
+    font-family: inherit;
+    margin-top:25px;
+}
+.auth-form_nutdieukhien{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    padding: 0px 100px;
+    padding-top: 12px;
+}
+.form_nutdieukhien_quaylai{
+    margin-right: 8px;
+    font-size: 15px;
+    width: 100px;
+    height: 35px;
+    border-radius: 16px;
+    font-weight: bold
+}
+.auth-form__link{
+    font-size: 1.2rem;
+    text-decoration: none;
+    /* color: #939393; */
+    margin-top: 5px;
+    font-family: serif;
+}
+.btn{
+    min-width: 124px;/*chiều ngang tối thiểu*/
+    height: 34px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    outline: none;
+    cursor: pointer;
+}
+.btn.btn--normal:hover{
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.btn.btn--primary{
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    font-family: serif;
+}

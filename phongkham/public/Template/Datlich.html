@@ -1,0 +1,219 @@
+<!-- File sau khi đăng nhập -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dịch vụ</title>
+  <link rel="shortcut icon" href="https://image.flaticon.com/icons/png/512/103/103386.png">
+  <link rel="stylesheet" href="Banner.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,400&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/all.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+
+    <!-- thông báo từ trang web -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+
+<body>
+  <div class="banner">
+    <nav class="navbar navbar-expand-sm navbar-light bg-faded fixed-top">
+      <a class="navbar-brand logo" href="Banner.html">
+        <img src="./images/logo.png" alt="logo">
+      </a>
+      <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+        aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <div class="a1">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link home" href="./Trangchu.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./Dichvu.html">Dịch Vụ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Banggia.html">Bảng giá</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Tintuc.html">Tin Tức</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Thongbao.html">Thông báo</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">Đặt Lịch Ngay!</a>
+              <!-- <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="./DangNhap.html">Đăng Nhập</a>
+                                <a class="dropdown-item" href="./DangKy.html">Đăng Ký</a>
+                            </div> -->
+            </li>
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false" style="margin-left: 280px;">
+                <img
+                  src="data:image/jpeg;base64,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"
+                  alt="img-cat" class="img-cat"> Chào Usename</a>
+              <div class="dropdown-menu" aria-labelledby="dropdownId" style="margin-left: 280px;">
+                <a class="dropdown-item" href="./Trangchu.html">Đăng Xuất</a>
+                <a class="dropdown-item" href="./XemLichHen.html">Xem Lịch Hẹn<div class="Xemlichxem">
+                  </div></a>
+                <a class="dropdown-item" href="./QLTTCN.html">Quản Lý Thông Tin Cá Nhân</a>
+              </div>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+
+  <!-- form_đặt lịch-->
+  <div class="all_content_contact_form">
+    <div class="title_appointments">ĐẶT LỊCH KHÁM</div>
+
+    <div class="info_patient">Thông Tin Đặt lịch</div>
+    <div class="form_group">
+      <input type="date" class="form-controlll date2" placeholder="Ngày tháng" />
+      <input type="time" class="form-controlll datetime" placeholder="Thời gian khám" />
+    </div>
+    <div class="form-group  ">
+      <select name="DICHVU" id="DICHVU" class="form-controlll">
+        <option value>Chọn dịch vụ</option>
+        <option value="Làm răng giả">Làm răng giả</option>
+        <option value="Thẩm mỹ răng sứ">Thẩm mỹ răng sứ</option>
+        <option value="chỉnh nha niềng răng">Làm răng giả</option>
+        <option value="Trám răng thẩm mỹ">Trám răng thẩm mỹ</option>
+        <option value="Tẩy trắng răng">Tẩy trắng răng</option>
+        <option value="Lấy cao răng">Lấy cao răng</option>
+        <option value="Trồng răng giả">Trồng răng giả</option>
+        <option value="Lấy men răng">Lấy men răng</option>
+        <option value="Nhổ răng">Nhổ răng</option>
+
+      </select>
+
+    </div>
+    <div class="form-group">
+      <textarea name="dsc" id="dsc" cols="10" rows="5" class="dsc" placeholder="Mô tả"></textarea>
+    </div>
+    <a href="#">
+      <button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#modelId">Đặt lịch</button>
+    </a>
+    </form>
+  </div>
+  <!-- end-form_đăt lịch -->
+
+ <!-- Thông báo đổ xuống của web -->
+ <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Thông báo khẩn!!!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Vui lòng <strong>Đăng nhập</strong> trước khi thực hiện đặt lịch !!! </br>TEETH CARE xin trân trọng.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <a href="./DangNhap.html"><button class="btn btn-primary">Đăng nhập ngay</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end thông báo -->
+  <!-- footer -->
+  <footer class="footer">
+    <div class="grid" style="background: url('https://nhakhoavietphapdn.com/theme/images/footer.jpg');">
+      <div class="grid__row">
+        <div class="grid__column_home-product">
+          <h3 class="footer__heading">Về chúng tôi</h3>
+          <ul class="footer__list">
+            <li class="footer__list--item">
+              <a href="#">Giới thiệu</a>
+            </li>
+            <li class="footer__list--item">
+              <a href="#">Hình ảnh</a>
+            </li>
+            <li class="footer__list--item">
+              <a href="#">Tuyển dụng</a>
+            </li>
+          </ul>
+        </div>
+        <div class="grid__column_home-product">
+          <h3 class="footer__heading">Thông tin cần thiết</h3>
+          <ul class="footer__list">
+            <li class="footer__list--item">
+              <a href="#">Chính sách bảo mật </a>
+            </li>
+          </ul>
+        </div>
+        <div class="grid__column_home-product">
+          <h3 class="footer__heading">Thời gian làm việc</h3>
+          <ul class="footer__list footer__time">
+            <li class="footer__list--item">
+              <a href="#"><i class="far fa-clock" style="margin-right: 14px;
+                    font-size: 47px;"></i> </a>
+            </li>
+            <div>
+              <li class="footer__list--item">
+                <a href="#"> Thứ 2 - Thứ 7 </a>
+              </li>
+              <li class="footer__list--item">
+                <a href="#"> 8h:00 - 19h:00 </a>
+            </div>
+            </li>
+          </ul>
+        </div>
+        <div class="grid__column_home-product">
+          <h3 class="footer__heading">Theo dõi chúng tôi</h3>
+          <ul class="footer__list">
+            <li class="footer__list--item">
+              <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i>
+                Facebook
+              </a>
+            </li>
+            <li class="footer__list--item">
+              <a href="https://mail.google.com/mail/u/0/"><i class="far fa-envelope"></i>
+                Gmail
+              </a>
+            </li>
+            <li class="footer__list--item">
+              <a href="#"><i class="fab fa-linkedin"></i>
+                Linkedin
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- end-footer -->
+  <script src="banner.js"></script>
+</body>
+</html>

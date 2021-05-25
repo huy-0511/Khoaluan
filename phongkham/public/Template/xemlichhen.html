@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thông báo</title>
+  <link rel="shortcut icon" href="https://image.flaticon.com/icons/png/512/103/103386.png">
+  <link rel="stylesheet" href="Banner.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,400&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/all.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="banner">
+        <nav class="navbar navbar-expand-sm navbar-light bg-faded fixed-top">
+            <a class="navbar-brand logo" href="trangchu.php">
+                <img src="images/logo.png" alt="logo">
+            </a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <div class="a1">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link home" href="trangchu.php">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="dichvu1.php">Dịch Vụ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="banggia1.php">Bảng giá</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tintuc1.php">Tin Tức</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="thongbao1.php">Thông báo</a>
+                      </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="datlich.php">Đặt lịch ngay</a>
+                      </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-left: 280px;">
+                           Chào Huy</a> 
+                          <div class="dropdown-menu" aria-labelledby="dropdownId" style="margin-left: 280px;">
+                            <a class="dropdown-item" href="?action=logout">Đăng xuất</a>
+                            <a class="dropdown-item" href="xemlichhen.php" >Xem Lịch Hẹn</a>
+                            <a class="dropdown-item" href="qlttcn.php?idtaikhoan=<?php echo $id ?>" >Quản Lý Thông Tin Cá Nhân</a>
+                          </div>
+                      </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    
+  <!-- form_Bảng giá-->
+
+  <div class="notification">
+    <h1 class="notify">Lịch hẹn</h1>
+</div>
+<table id="alter">
+    <tr class="taskbar">
+        <th class="taskbar_name">Họ tên</th>
+        <th class="taskbar_name">Số điện thoại</th>
+        <th class="taskbar_name">Ngày</th>
+        <th class="taskbar_name">Giờ</th>
+        <th class="taskbar_name">Dịch vụ</th>
+        <th class="taskbar_name">Trạng thái</th>
+    </tr>
+            <tr class="taskbar">
+                <td class="taskbar_text">Huy</td>
+                <td class="taskbar_text">123456789</td>
+                <td class="taskbar_text">12/03/2021</td>
+                <td class="taskbar_text">8:00</td>
+                <td class="taskbar_text">Trám răng</td>
+                <td class="taskbar_text">Chờ khách đến</td>
+            </tr>
+</table>
+
+  <!-- end-form_Bảng giá -->
+
+ <!-- footer -->
+  <footer class="footer" style="background: url('https://nhakhoavietphapdn.com/theme/images/footer.jpg');">
+    <div class="grid">
+      <div class="grid__row">
+        <div class="grid__column_home-product">
+          <h3 class="footer__heading">Về chúng tôi</h3>
+          <ul class="footer__list">
+            <li class="footer__list--item">
+              <a href="#">Giới thiệu</a>
+            </li>
+            <li class="footer__list--item">
+              <a href="#">Hình ảnh</a>
+            </li>
+            <li class="footer__list--item">
+              <a href="#">Tuyển dụng</a>
+            </li>
+          </ul>
+        </div>
+        <div class="grid__column_home-product">
+          <h3 class="footer__heading">Thông tin cần thiết</h3>
+          <ul class="footer__list">
+            <li class="footer__list--item">
+              <a href="#">Chính sách bảo mật </a>
+            </li>
+          </ul>
+        </div>
+        <div class="grid__column_home-product">
+          <h3 class="footer__heading">Thời gian làm việc</h3>
+          <ul class="footer__list footer__time">
+            <li class="footer__list--item">
+              <a href="#"><i class="far fa-clock" style="margin-right: 14px;
+                font-size: 47px;"></i> </a>
+            </li>
+            <div>
+              <li class="footer__list--item">
+                <a href="#"> Thứ 2 - Thứ 7 </a>
+              </li>
+              <li class="footer__list--item">
+                <a href="#"> 8h:00 - 19h:00 </a>
+            </div>
+            </li>
+          </ul>
+        </div>
+        <div class="grid__column_home-product">
+          <h3 class="footer__heading">Theo dõi chúng tôi</h3>
+          <ul class="footer__list">
+            <li class="footer__list--item">
+              <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i>
+                Facebook
+              </a>
+            </li>
+            <li class="footer__list--item">
+              <a href="https://mail.google.com/mail/u/0/"><i class="far fa-envelope"></i>
+                Gmail
+              </a>
+            </li>
+            <li class="footer__list--item">
+              <a href="#"><i class="fab fa-linkedin"></i>
+                Linkedin
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- end-footer -->
+  <script src="banner.js"></script>
+  <!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v9.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Your Chat Plugin code -->
+      <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="106214981423586"
+  theme_color="#0A7CFF"
+  logged_in_greeting="Xin chào, bạn cần chúng tôi giúp gì ?"
+  logged_out_greeting="Xin chào, bạn cần chúng tôi giúp gì ?">
+      </div>
+</body>
+</html>

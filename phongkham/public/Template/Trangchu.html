@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chủ</title>
+    <link rel="shortcut icon" href="https://image.flaticon.com/icons/png/512/103/103386.png">
+    <link rel="stylesheet" href="Banner.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <script src="jquery_3_5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="banner">
+        <nav class="navbar navbar-expand-sm navbar-light bg-faded fixed-top">
+            <a class="navbar-brand logo" href="#">
+                <img src="images/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <div class="a1">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link home" href="./Trangchu.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Dichvu.html">Dịch Vụ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Banggia.html">Bảng giá</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Tintuc.html">Tin Tức</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./Thongbao.html">Thông báo</a>
+                      </li>
+                        
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Đặt Lịch Ngay!</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="./DangNhap.html">Đăng Nhập</a>
+                                <a class="dropdown-item" href="./DangKy.html">Đăng Ký</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="carouselId" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselId" data-slide-to="1"></li>
+                <li data-target="#carouselId" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <img src="images/a1.jpg" alt="First slide"width="100%" height="500px">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/a2.jpg" alt="Second slide" width="100%" height="500px">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/a3.jpg" alt="Third slide" width="100%" height="500px">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
+            <h1 class="card1">Vì một nụ cười xinh!</h1>
+            <h1 class="card2">Teeth Care</h1>
+            <h1 class="card3">Chúng Tôi Luôn Vì Bạn!</h1>
+        </div>
+    </div>
+     <!-- container -->
+     <div class="container1">
+        <div
+          class="why1"
+          style="
+            background: url('https://nhakhoavietphapdn.com/uploads/group/157000665671.jpg')
+              no-repeat center top;
+          "
+        >
+          <div class="wrap">
+            <ul>
+              <li class="why1-title">
+                <h2>10 LÝ DO TẠI SAO CHỌN 
+                </br>
+                      NHA KHOA TEETH CARE</h2>
+              </li>
+              <li>
+                <span>1</span>
+                <label>Đội ngũ Nha Sĩ hàng đầu về Nha Khoa Việt Pháp</label>
+              </li>
+              <li>
+                <span>2</span>
+                <label>Trang thiết bị cao cấp, hiện đại, đồng bộ.</label>
+              </li>
+              <li>
+                <span>3</span>
+                <label>Đầy đủ tất cả các chuyên khoa về Nha Khoa.</label>
+              </li>
+              <li>
+                <span>4</span>
+                <label>Sử dụng các vật liệu cao cấp nhập khẩu từ Pháp</label>
+              </li>
+              <li>
+                <span>5</span>
+                <label>Chính sách bảo hành lâu dài</label>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+        class="why2"
+        style="
+          background: url('https://nhakhoavietphapdn.com/uploads/group/150215621366.png')
+            no-repeat center top;
+        "
+      >
+        <div class="wrap2">
+          <ul>
+            <li>
+              <span>6</span>
+              <label>Nha Khoa không đau can thiệp tối thiểu – Hiệu quả rõ rệt.</label>
+            </li>
+            <li>
+              <span>7</span>
+              <label>Quy trình vô trùng nghiêm ngặt.</label>
+            </li>
+            <li>
+              <span>8</span>
+              <label>Không gian sang trọng, tiện nghi cao cấp cho bạn sự thư giãn như trong một kỳ nghỉ.</label>
+            </li>
+            <li>
+              <span>9</span>
+              <label>Đội ngũ nhân viên chuyên nghiệp, thân thiện chăm sóc bạn ân cần, nhẹ nhàng, chu đáo.</label>
+            </li>
+            <li>
+              <span>10</span>
+              <label>Chất lượng hỗ trợ điều trị với giá cả hợp lý.</label>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+      <!-- end-container -->
+      <!-- container2 -->
+      <div class="container2">
+        <div class="widget_text">
+          <h2>Dịch vụ nha khoa toàn diện</h2>
+          <span>Chúng tôi luôn có giải pháp phục hình răng phù hợp cho bạn và cho những người thân yêu của bạn !</span>
+        </div>
+        <div class="full-item">
+        <div class="textwidget">
+          <div class="full">
+            <div class="services">
+              <a href="#"alt="Phục hình răng sứ VENEER">Phục hình răng sứ VENEER</a>
+            </div>
+            <div class="titlesp">
+              <img src="https://nhakhoalananh.com/wp-content/uploads/2018/07/Hinh-dai-dien-thu-muc-rang-su.jpg" alt="img" class="img">
+            </div>
+            <div class="title-news">
+              <h2>
+                <a href="#">Nha Khoa Teeth Care có nhiều loại răng sứ, vậy loại nào là tốt nhất?</a>
+              </h2>
+              <div class="excerpt">
+                Nha Khoa Teeth Care có bề dày kinh nghiệm phục hình răng sứ thẩm mỹ hơn 20 năm và đã trải qua rất nhiều dòng sứ khác nhau. Đến nay, nha khoa Teeth Care đã khẳng định được thương hiệu là nha khoa uy tín trong phục hình răng sứ thẩm mỹ cao cấp tại Thành Phố Đà Nẵng Rất nhiều người nghĩ cấy ghép Implant sẽ “kinh khủng” lắm. Sự thật không hẳn là như vậy, cấy ghép Implant đơn thuần (không có ghép xương) được xem là nhẹ nhàng và ít chấn.
+              </div>
+    
+            </div>
+            <div class="list-bang-gia">
+              <h2>
+                <i class="fa fa-circle">
+                </i>
+                <a href="#">Đa dạng giải pháp giúp hoàn thiện nụ cười</a>
+              </h2>
+              <h2>
+                <i class="fa fa-circle">
+                </i>
+                <a href="#">Những ưu điểm của răng sứ CAD/CAM (CEREC, Inlab) tại nha khoa Teeth Care</a>
+              </h2>
+              <h2>
+                <i class="fa fa-circle">
+                </i>
+                <a href="#">Giải pháp toàn diện cho nụ cười đẹp</a>
+              </h2>
+              <h2>
+                <i class="fa fa-circle">
+                </i>
+                <a href="#">Làm răng sứ nhanh chỉ trong một ngày</a>
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="textwidget">
+          <div class="full">
+            <div class="services">
+              <a href="#"alt="Phục hình răng sứ VENEER">Cấy ghép IMPLANT</a>
+            </div>
+            <div class="titlesp">
+              <img src="https://nhakhoalananh.com/wp-content/uploads/2018/07/Hinh-dai-dien-thu-muc-implant-nha-khoa.jpg" alt="img" class="img">
+            </div>
+            <div class="title-news">
+              <h2>
+                <a href="#">Cấy ghép Implant có đau không?</a>
+              </h2>
+              <div class="excerpt">
+                Rất nhiều người nghĩ cấy ghép Implant sẽ “kinh khủng” lắm. Sự thật không hẳn là như vậy, cấy ghép Implant đơn thuần (không có ghép xương) được xem là nhẹ nhàng và ít chấn thương hơn nhiều so với nhổ răng, do vậy, cũng ít “đau” hơn.
+              </div>
+            </div>
+            
+            <div class="list-bang-gia">
+              <h2>
+                <i class="fa fa-circle">
+                </i>
+                <a href="#"> Bạn nên đi cấy ghép răng khi nào?</a>
+              </h2>
+              <h2>
+                <i class="fa fa-circle">
+                </i>
+                <a href="#"> Thời điểm thích hợp cấy ghép implant</a>
+              </h2>
+              <h2>
+                <i class="fa fa-circle">
+                </i>
+                <a href="#"> Hệ thống chụp phim Cone beam 3D hỗ trợ cắm ghép Implant an toàn và hiệu quả</a>
+              </h2>
+              <h2>
+                <i class="fa fa-circle">
+                </i>
+                <a href="#"> Cấy ghép implant All on four – Giải pháp mới cho mất răng toàn hàm</a>
+              </h2>
+            </div>
+          </div>
+      </div>
+      <div class="textwidget">
+        <div class="full">
+          <div class="services">
+            <a href="#"alt="Phục hình răng sứ VENEER">Chỉnh Nha</a>
+          </div>
+          <div class="titlesp">
+            <img src="https://nhakhoalananh.com/wp-content/uploads/2018/07/Hinh-dai-dien-thu-muc-nieng-rang.jpg" alt="img" class="img">
+          </div>
+          <div class="title-news">
+            <h2>
+              <a href="#">Những câu hỏi thường gặp về chỉnh nha bằng Invisalign (Phần 1)</a>
+            </h2>
+            <div class="excerpt">
+              Invisalign là một kỹ thuật điều trị mới của công nghệ chỉnh nha ngày nay. Invisalign là một loạt khay trong suốt được bệnh nhân mang để di chuyển răng theo mong muốn của bác sĩ và bệnh nhân. Vậy Invisalign có những ưu và nhược điểm gì?
+            </div>
+    
+          </div>
+          <div class="list-bang-gia">
+            <h2>
+              <i class="fa fa-circle">
+              </i>
+              <a href="#">Những câu hỏi thường gặp về Invisalign (phần 2)</a>
+            </h2>
+            <h2>
+              <i class="fa fa-circle">
+              </i>
+              <a href="#"> Niềng răng không mắc cài invisalign – Hình ảnh ca thực tế</a>
+            </h2>
+            <h2>
+              <i class="fa fa-circle">
+              </i>
+              <a href="#"> Những điều cần biết trước khi điều trị chỉnh nha – niềng răng</a>
+            </h2>
+            <h2>
+              <i class="fa fa-circle">
+              </i>
+              <a href="#"> Các câu hỏi thường gặp khi chỉnh nha ở bệnh nhân trưởng thành (Phần 1)</a>
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div class="textwidget">
+        <div class="full">
+          <div class="services">
+            <a href="#"alt="Phục hình răng sứ VENEER">Nha Khoa Thẩm Mỹ</a>
+          </div>
+          <div class="titlesp">
+            <img src="https://nhakhoalananh.com/wp-content/uploads/2018/07/Hinh-dai-dien-thu-muc-nha-khoa-tham-my.jpg" alt="img" class="img">
+          </div>
+          <div class="title-news">
+            <h2>
+              <a href="#">TẨY TRẮNG RĂNG ZOOM WHITE SPEED – Hệ thống tẩy trắng được lựa chọn nhiều nhất tại Mỹ</a>
+            </h2>
+            <div class="excerpt">
+              Nếu bạn đã từng mong muốn một kết quả tẩy trắng răng hiệu quả nhất có thể, bạn có thể nghĩ đến hệ thống Zoom White Speed – thế hệ đèn tẩy trắng mới nhất năm 2015 của Philips, vừa được trang bị tại nha khoa Teeth Care
+            </div>
+    
+          </div>
+          <div class="list-bang-gia">
+            <h2>
+              <i class="fas fa-circle">
+              </i>
+              <a href="#"> Tẩy trắng răng tại nhà</a>
+            </h2>
+            <h2>
+              <i class="fas fa-circle">
+              </i>
+              <a href="#"> Bạn có biết cách cải thiện nụ cười của mình?</a>
+            </h2>
+            <h2>
+              <i class="fa fa-circle">
+              </i>
+              <a href="#"> Đi tìm nụ cười hoàn hảo</a>
+            </h2>
+            <h2>
+              <i class="fa fa-circle">
+              </i>
+              <a href="#"> Tẩy trắng răng kiêng ăn gì?</a>
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div class="textwidget">
+        <div class="full">
+          <div class="services">
+            <a href="#"alt="Phục hình răng sứ VENEER">Bảng giá</a>
+          </div>
+          <div class="titlesp">
+            <img src="https://nhakhoalananh.com/wp-content/uploads/2018/07/Hinh-dai-dien-thu-muc-bang-gia-nha-khoa.jpg" alt="img" class="img">
+          </div>
+          <div class="title-news">
+            <h2>
+              <a href="#">Bảng giá nha khoa Teeth Care</a>
+            </h2>
+            <div class="excerpt">
+              Bảng giá nha khoa Teeth Care thể hiện rõ ràng và đầy đủ các loại hình điều trị nha khoa bao gồm: Phục hình răng sứ, Cấy ghép Impalnt, Chỉnh nha - niềng răng, Nha khoa tổng quát, Nha khoa thẩm mỹ, Nha khoa trẻ em
+            </div>
+    
+          </div>
+          <div class="list-bang-gia">
+            <h2>
+              <i class="fa fa-circle">
+              </i>
+              <a href="#"> Bảng giá chi nhánh Phú Nhuận</a>
+            </h2>
+            <h2>
+              <i class="fa fa-circle">
+              </i>
+              <a href="#"> Bảng giá chi nhánh Phú Mỹ Hưng</a>
+            </h2>
+            <h2>
+              <i class="fa fa-circle">
+              </i>
+              <a href="#"> Bảng giá chi nhánh Quận 2 - Sala</a>
+            </h2>
+            <h2>
+              <i class="fa fa-circle">
+              </i>
+              <a href="#"> Liên kết bảo hiểm thanh toán trực tiếp cho khách hàng</a>
+            </h2>
+            <h2>
+              <i class="fa fa-circle">
+              </i>
+              <a href="#">  Trả góp 0% phí điều trị tại Nha Khoa Teeth Care</a>
+            </h2>
+          </div>
+        </div>
+      </div>
+        <div class="textwidget">
+          <div class="full">
+            <div class="services">
+              <a href="#"alt="Phục hình răng sứ VENEER">Hỏi và Đáp</a>
+            </div>
+            <div class="titlesp">
+              <img src="https://nhakhoalananh.com/wp-content/uploads/2018/07/Hinh-dai-dien-thu-muc-hoi-%C4%91ap-nha-khoa.jpg" alt="img" class="img">
+            </div>
+            <div class="title-news">
+              <h2>
+                <a href="#">Cấy ghép Implant có thể tồn tại suốt đời được không?</a>
+              </h2>
+              <div class="excerpt">
+                Tôi bị mất răng và muốn cấy ghép implant, nhưng có nhiều người nói cấy ghép implant có thể bị hỏng. Tôi muốn hỏi là cấy ghép implant có tồn tại suốt đời được không?
+              </div>
+    
+            </div>
+            <div class="list-bang-gia">
+              <h2>
+                <i class="fa fa-circle">
+                </i>
+                <a href="#">Giá niềng răng Invisalign bao nhiêu?</a>
+              </h2>
+              <h2>
+                <i class="fa fa-circle">
+                </i>
+                <a href="#">Niềng răng bằng khay Invisalign</a>
+              </h2>
+              <h2>
+                <i class="fa fa-circle">
+                </i>
+                <a href="#">Cấy ghép Implant có thể tồn tại suốt đời được không?</a>
+              </h2>
+              <h2>
+                <i class="fa fa-circle">
+                </i>
+                <a href="#"> Răng không đều, màu răng sậm màu, nên bọc răng sứ thẩm mỹ hay niềng răng?</a>
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!-- end-container2 -->
+      <!-- container3 -->
+      <div class="full-container3">
+        <div class="grid__item">
+          <h2>
+            HÌNH ẢNH PHÒNG KHÁM NHA KHOA TEETH CARE
+          </h2>
+          <div class="full-item">
+            <img src="https://product.hstatic.net/1000391641/product/tvd-11_73d369ec4f0749bf81bc369de7223fb4_large.jpg" alt="img" class="img">
+            <img src="https://product.hstatic.net/1000391641/product/tvd-72_a5201512fe0c4feda0c3bb2174fe0835_large.jpg" alt="img" class="img">
+            <img src="https://product.hstatic.net/1000391641/product/tvd-92_b1b2df9776f24069a0dc5dbfb1823e94_large.jpg" alt="img" class="img">
+            <img src="https://product.hstatic.net/1000391641/product/tvd-95_4153cc3472834ce797c161458ac82cda_large.jpg" alt="img" class="img">
+            <img src="https://product.hstatic.net/1000391641/product/tvd-7_e4bc1d58bab24487a6f083863a8e18a9_large.jpg" alt="img" class="img">
+            <img src="https://product.hstatic.net/1000391641/product/tvd-93_b342fa900f1540b48e44fd0e3b083d5b_large.jpg" alt="img" class="img">
+            <img src="https://product.hstatic.net/1000391641/product/tvd-83_65d5efaa4d6b4497997df2b75d3fa033_large.jpg" alt="img"class="img">
+            <img src="https://product.hstatic.net/1000391641/product/tvd-23_89522c9c3ee940c6abea61cd2bdbb353_large.jpg" alt="img" class="img">
+          </div>
+        </div>
+      </div>
+      <!-- end-container3 -->
+      <!-- footer -->
+      <footer class="footer">
+        <div class="grid"  style="background: url('https://nhakhoavietphapdn.com/theme/images/footer.jpg');">
+          <div class="grid__row">
+            <div class="grid__column_home-product">
+              <h3 class="footer__heading">Về chúng tôi</h3>
+              <ul class="footer__list">
+                <li class="footer__list--item">
+                  <a href="#">Giới thiệu</a>
+                </li>
+                <li class="footer__list--item">
+                  <a href="#">Hình ảnh</a>
+                </li>
+                <li class="footer__list--item">
+                  <a href="#">Tuyển dụng</a>
+                </li>
+              </ul>
+            </div>
+            <div class="grid__column_home-product">
+              <h3 class="footer__heading">Thông tin cần thiết</h3>
+              <ul class="footer__list">
+                <li class="footer__list--item">
+                  <a href="#">Chính sách bảo mật </a>
+                </li>
+              </ul>
+            </div>
+            <div class="grid__column_home-product">
+              <h3 class="footer__heading">Thời gian làm việc</h3>
+              <ul class="footer__list footer__time">
+                <li class="footer__list--item">
+                  <a href="#"><i class="far fa-clock" style="margin-right: 14px;
+                    font-size: 47px;"></i> </a>
+                </li>
+                <div>
+                <li class="footer__list--item">
+                  <a href="#"> Thứ 2 - Thứ 7 </a>
+                </li>
+                <li class="footer__list--item">
+                  <a href="#"> 8h:00 - 19h:00 </a>
+                </div>
+                </li>
+              </ul>
+            </div>
+            <div class="grid__column_home-product">
+              <h3 class="footer__heading">Theo dõi chúng tôi</h3>
+              <ul class="footer__list">
+                <li class="footer__list--item">
+                  <a href="https://www.facebook.com/"
+                    ><i class="fab fa-facebook"></i>
+                    Facebook
+                  </a>
+                </li>
+                <li class="footer__list--item">
+                  <a href="https://mail.google.com/mail/u/0/"
+                    ><i class="far fa-envelope"></i>
+                    Gmail
+                  </a>
+                </li>
+                <li class="footer__list--item">
+                  <a href="#"
+                    ><i class="fab fa-linkedin"></i>
+                    Linkedin
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- end-footer -->
+      <div class="nuttop"><i class="fas fa-arrow-alt-circle-up top"></i></div>
+    <script src="banner.js"></script>
+</body>
+</html>
